@@ -9,7 +9,7 @@ namespace EmptyMobileApp.ViewModels
     {
         public AboutViewModel()
         {
-            Title = "About";
+            Title = "About33";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://xamarin.com"));
         }
 
